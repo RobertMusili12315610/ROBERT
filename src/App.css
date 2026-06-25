@@ -655,16 +655,27 @@ img {
   50% { transform: translateY(-8px); }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 768px) {
   .Home {
     grid-template-columns: 1fr;
+    align-items: flex-start;
+    padding-top: 3rem;
   }
+
   .Home__Data {
     text-align: center;
   }
+
   .Home__img {
-    width: 150px;
-    max-width: 150px;
+    order: 1;
+    width: min(240px, 70%);
+    max-width: 240px;
+    margin: 1.5rem auto 0;
+    justify-self: center;
+  }
+
+  .Home__Button__Contact {
+    margin: 0 auto;
   }
 }
 
