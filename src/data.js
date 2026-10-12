@@ -101,7 +101,7 @@ export const skills = [
 
 export const projects = [
   {
-    href: 'https://kamaudoreen.vercel.app/',
+    href: 'https://georginalawrence.vercel.app/',
     image: 'work1.png',
     title: 'PORTFOLIO',
     note: 'CLICK THIS CARD TO VIEW THE PORTFOLIO',
