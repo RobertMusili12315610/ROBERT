@@ -52,7 +52,7 @@ export default function Navbar({ links }) {
     <header className={`NavBar__Header ${hidden ? 'NavBar--Hidden' : ''}`}>
       <nav className="Nav Grid">
         <a href="#Home" className="NavBar__Logo">
-          ROBERT MUSILI
+          GEORGINA LAWRENCE
         </a>
         <div ref={menuRef} className={`NavBar__Menu ${menuOpen ? 'Show' : ''}`} id="NavBar__Menu">
           <ul className="NavBar__List">
