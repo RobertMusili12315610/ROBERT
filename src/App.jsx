@@ -8,7 +8,7 @@ import work1 from './assets/work1.png'
 import work3 from './assets/work3.jpg'
 import './App.css'
 
-const aboutText = `I’m Robert Musili. I build websites with React and keep things simple, reliable, and easy to understand.
+const aboutText = `I’m Georgina Lawrence. I build websites with React and keep things simple, reliable, and easy to understand.
 
 I care about writing clean components and sensible styles, not tricks. I try to make the interface easy to use and the code easy to follow. When I work on a site, I think about how it will behave across devices and how it will hold up over time.
 
@@ -53,7 +53,7 @@ function App() {
     setStatus(null)
 
     try {
-      const response = await fetch('https://formspree.io/f/mbdpqkao', {
+      const response = await fetch('', {
         method: 'POST',
         body: data,
         headers: { Accept: 'application/json' },
@@ -82,7 +82,7 @@ function App() {
               Hi,
               <br />
               I'm
-              <span className="home__Title__color"> ROBERT MUSILI </span>
+              <span className="home__Title__color"> GEORGINA LAWRENCE </span>
               <br />
               Web Developer.
             </h1>
@@ -91,7 +91,7 @@ function App() {
             </a>
           </div>
           <div className="Home__img">
-            <img src={perfil2} alt="Robert Musili" />
+            <img src={perfil2} alt="Georgina Lawrence" />
           </div>
         </section>
 
@@ -99,10 +99,10 @@ function App() {
           <SectionHeader title="ABOUT" />
           <div className="About__Container Grid">
             <div className="About__Image">
-              <img src={perfil2} alt="About Robert" />
+              <img src={perfil2} alt="About Georgina" />
             </div>
             <div>
-              <h2 className="About__SubTitle">I'm ROBERT MUSILI</h2>
+              <h2 className="About__SubTitle">I'm GEORGINA LAWRENCE</h2>
               <p className="About__Text">{aboutText}</p>
             </div>
           </div>
